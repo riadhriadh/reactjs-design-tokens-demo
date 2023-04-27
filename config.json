@@ -1,0 +1,13 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "web": {
+      "transformGroup": "web",
+      "buildPath": "build/token/",
+      "files": [{
+        "destination": "_variables.json",
+        "format": "json/nested"
+      }]
+    }
+  }
+}
